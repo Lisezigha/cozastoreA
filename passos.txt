@@ -1,0 +1,13 @@
+git config
+
+/*Criação de um projeto*/
+
+dotnet new sln --name CozaStore
+dotnet new mvc -o CozaStore 
+dotnet sln
+
+
+
+
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.22
