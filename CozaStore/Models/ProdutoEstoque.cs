@@ -20,7 +20,7 @@ public class ProdutoEstoque
 
      [Display(Name = "Cor")]
     [Required(ErrorMessage = "Informe a Cor")]
-    public byte CategoriaId { get; set; }
+    public byte CorId { get; set; }
     [ForeignKey("CorId")]
     public Cor Cor { get; set; }
 

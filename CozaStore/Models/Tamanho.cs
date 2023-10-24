@@ -14,7 +14,7 @@ public class Tamanho
 
     [Required(ErrorMessage = "Informe a Sigla")]
     [StringLength(7, ErrorMessage = "A Sigla deve possuir no máximo 7 caracteres")]
-    public string Siga { get; set; }
+    public string Sigla { get; set; }
 
 
     [Required(ErrorMessage = "Informe o Nome")]
