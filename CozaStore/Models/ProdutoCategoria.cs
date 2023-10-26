@@ -17,7 +17,7 @@ public class ProdutoCategoria
     [ForeignKey("CategoriaId")]
     public Categoria Categoria { get; set; }
 
-
+     public ICollection<ProdutoCategoria> Produtos { get; set; }
 
 
 }

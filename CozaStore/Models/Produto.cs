@@ -52,12 +52,11 @@ public class Produto
     [StringLength(30, ErrorMessage = "As Dimensões deve possuir no máximo 30 características")]
     public string Dimensao { get; set; }
 
+    public ICollection<ListaDesejo> Clientes { get; set; }
+    public ICollection<ProdutoAvaliacao> Avaliacoes { get; set; }
+    public ICollection<ProdutoCategoria> Categorias { get; set; }
+    public ICollection<ProdutoEstoque> Estoques { get; set; }
 
-
-
-
-
-
-
+    public ICollection<ProdutoTag> Tags { get; set; }
 
 }

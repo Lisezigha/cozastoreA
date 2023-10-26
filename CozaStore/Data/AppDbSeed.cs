@@ -389,7 +389,7 @@ public class AppDbSeed
             {
                Id = Guid.NewGuid().ToString(),
                Name = "Funcionário",
-               NormalizedName = "FUNCIONARIO"
+               NormalizedName = "FUNCIONÁRIO"
             },
             new IdentityRole()
             {
@@ -423,9 +423,9 @@ public class AppDbSeed
         List<Usuario> usuarios = new(){
             new Usuario(){
                 UsuarioId = users[0].Id,
-                Nome = "José Antonio Gallo Junior",
-                DataNascimento = DateTime.Parse("05/08/1981"),
-                Foto = "/img/users/avatar.png"
+                Nome = "Geovana Hidalgo Scudeletti",
+                DataNascimento = DateTime.Parse("29/09/2005"),
+                Foto = "/images/usuarios/avatar.png"
             }
         };
         builder.Entity<Usuario>().HasData(usuarios);
